@@ -9,7 +9,7 @@ We have been running the pipe node on Devnet, now we will run it on testnet
 
 ## System Requirements
 * 4+ CPU cores
-* Linux (Ubuntu 24.04 Only, lower version of ubuntu is not supported)
+* Linux (Ubuntu 24.00 Only, lower version of ubuntu is not supported)
 * 16GB RAM (configurable), more the better for higher rewards
 * SSD storage with 100GB+ available space
 * Internet connectivity available 24/7

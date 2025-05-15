@@ -97,7 +97,7 @@ pop --help
 
 ### 5. Setup Config File
 ```
-nano config.json
+sudo nano config.json
 ```
 ```
 {

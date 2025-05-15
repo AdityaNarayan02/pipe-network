@@ -95,7 +95,7 @@ sudo chmod +x /opt/popcache/pop
 pop --help
 ```
 
-5. Setup Config File
+### 5. Setup Config File
 ```
 nano config.json
 ```
@@ -160,6 +160,7 @@ Environment=POP_CONFIG_PATH=/opt/popcache/config.json
 WantedBy=multi-user.target
 EOL'
 ```
+## Start the Node
 ```
 sudo systemctl daemon-reload
 ```

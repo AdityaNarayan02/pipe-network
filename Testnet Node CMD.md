@@ -187,6 +187,7 @@ sudo journalctl -u popcache
 sudo systemctl stop popcache
 
 # Restart
+cd /opt/popcache
 sudo systemctl daemon-reload
 sudo systemctl enable popcache
 sudo systemctl restart popcache

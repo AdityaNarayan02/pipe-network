@@ -85,7 +85,7 @@ cd /opt/popcache
 2. Once Downloaded move the downloaded file in `/opt/popcache` you created in step 3, you will find it in your Ubuntu/home/user
 
 ```
-sudo tar -xzf pop-v0.3.0-linux-*.tar.gz
+sudo tar -xzf pop-v0.3.1-linux-*.tar.gz
 ```
 ```
 sudo chmod +x /opt/popcache/pop
@@ -135,6 +135,11 @@ sudo nano config.json
 Setup Configuration according to you
 - `pop-location`: location of VPS --> Command to Check --> `realpath --relative-to /usr/share/zoneinfo /etc/localtime`
 - `website`: Anything you prefer (can use github profile)
+
+### Validate your Config.
+```
+./pop --validate-config
+```
 
 4. Create systemd file
 ```
